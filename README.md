@@ -1,4 +1,4 @@
-# Formulário com Troca de Tema e Validação de Senha
+# Formulário com Troca de Tema, Validação de Senha e Armazenamento de Informações 
 
 Este projeto é um formulário simples que permite ao usuário inserir seu nome, sobrenome, data de nascimento e senha, sem verificação de nome, e-mail ou obrigatoriedade de preencimento de campos. O formulário inclui validação de senha e a ideia do projeto é a capacidade de armazenar os dados em diferentes tipos de armazenamento (localStorage, sessionStorage e cookies). Além disso, o usuário pode alternar entre um tema claro e um tema escuro.
 
