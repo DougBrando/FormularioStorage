@@ -1,0 +1,68 @@
+body {
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para mudança de tema */
+}
+.claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+.escuro {
+    background-color: #333333;
+}
+main {
+    width: 400px;
+    background: #b3b3b3;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #0000005b;
+    border-bottom: 10px;
+    margin: auto;
+}
+#cct {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+}
+label {
+    font: 12px calibri;
+    text-transform: uppercase;
+    text-align: center;
+    background: #ffffffdc !important;
+    padding-right: 45px !important;
+}
+.inpts, label, input[type="date"], select, button {
+    padding: 15px;
+    background: #f7f7f7;
+    border-radius: 20px;
+    border: 1px solid #b4b4b4;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+input, #tema {
+    margin-left: -40px;
+}
+#feedback {
+    background: #ffffffd7;
+    padding: 15px;
+    grid-column: 1 / -1;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none; /* Inicialmente oculto */
+}
+#feedback2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    padding: 5px;
+    margin: 5px;
+    text-align: justify;
+    text-transform: uppercase;
+    align-content: center;
+}       
+select:focus, input:focus {
+    border-color: #007BFF; /* Cor ao focar */
+    outline: none; /* Remove o contorno padrão */
+    background: #fff;
+}
+#feedback3{
+    text-align: right;
+}
