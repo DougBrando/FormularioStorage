@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Troca de Tema e Validação de Senha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="claro">
+    <main>
+      <form action="" id="cct">
+            <label for="nome">Digite seu nome</label>
+            <input type="text" name="nome" id="nome" class="inpts">
+            <label for="sobreNome">Digite seu sobrenome</label>
+            <input type="text" name="sobreNome" id="sobreNome" class="inpts"> 
+            <label for="idade">Data de nascimento</label>
+            <input type="date" name="idade" id="idade" class="inpts">
+            <label for="senha">Digite sua senha</label>
+            <input type="password" id="senha" oninput="validarSenha()" placeholder="" class="inpts">
+            <p id="feedback"></p>
+            <label for="tema">Escolha o tema</label>
+            <select id="tema">
+                <option value="claro">Claro</option>
+                <option value="escuro">Escuro</option>            
+            </select>
+            <p id="feedback2">Onde deseja guardar as informações: Local, Session ou Cookies:    
+            </p>
+            <p id="feedback3"> 
+                <select id="guarda">
+                <option value="local">Local</option>
+                <option value="session">Session</option>
+                <option value="cookies">Cookies</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </p>
+        </form>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
